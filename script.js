@@ -16,6 +16,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     //Git second commit
 
+    //Git checkout
+
     function setErrorData(message){
         error_div.innerText = message;
         removeErrorsDataTimeout = setTimeout(()=>{
