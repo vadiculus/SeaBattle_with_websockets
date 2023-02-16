@@ -14,6 +14,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
     let max_box = 20;
     let removeErrorsDataTimeout;
 
+    //Git second commit
+
     function setErrorData(message){
         error_div.innerText = message;
         removeErrorsDataTimeout = setTimeout(()=>{
