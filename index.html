@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Морской бой на вебcoкетах!</h1>
+    <h3 id="key_room">Код комнаты: </h3>
+    <br>
+    <h2 id="turn_text"></h2>
+    <div class="main_board">
+    	<h2>Твоя доска</h2>
+    	<h3 id="count_box">Осталось  поставить: 20
+   		</h3>
+   		<div id="error">
+    	
+    	</div>
+        <div class="display_board my_board">
+        	<div class="positions_y"></div>
+        	<div class="game_board" id="my_board">
+        		
+        	</div>
+        </div>
+        <hr>
+        <h2>Доска противника</h2>
+        <div class="display_board enemy_board"> 
+        	<div class="positions_y"></div>
+        	<div class="game_board" id="enemy_board">
+        		
+        	</div>
+        </div>
+    </div>
+    <label>Код комнаты: <input id="key_code" type="text" name=""></label><br>
+    <button id="start">Начать бой</button>
+    <script src="script.js"></script>
+</body>
+</html>

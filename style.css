@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+}
+
+.show_pos{
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.display_board{
+	display: flex;
+}
+
+.positions_y{
+	flex-direction: column;
+	height: 100%;
+}
+
+.pos_checkbox{
+	display: none;
+}
+
+.for_checkbox {
+	display: inline-block;
+	margin-right: 5px;
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+.pos_checkbox:checked + .for_checkbox{
+	background: black;
+}
+
+#error{
+	color: red;
+}
